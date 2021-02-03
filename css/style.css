@@ -1,0 +1,47 @@
+.texto {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: small;
+  
+}
+.colorAzul{
+  color: rgb(2,94,115);
+}
+.navbar{
+  background-color: rgb(2,94,115);
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .img-libro {
+    width: 100%;
+  }
+  .titulo {
+    font-size: 40px;
+  }
+  .valorTotal{
+    font-size: 25px;
+  }
+ 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  .texto{
+    height: 18em;
+  } 
+
+  .img-libro {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width : 1224px) {
+  .texto{
+    height: 18em;
+  } 
+
+  .img-libro {
+    width: 250px;
+  }
+ 
+ }
